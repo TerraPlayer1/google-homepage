@@ -1,0 +1,10 @@
+#main {
+    display:flex;
+    flex-direction:column;
+    height: 100%;
+}
+#logo-area {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
