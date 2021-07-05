@@ -1,10 +1,47 @@
-#main {
-    display:flex;
-    flex-direction:column;
-    height: 100%;
+a {
+    text-decoration: none;
 }
-#logo-area {
-    display:flex;
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    font-family: arial,sans-serif;
+}
+.logo-area {
+    display: flex;
     flex-direction: column;
     align-items: center;
+}
+.navbar {
+    display: flex;
+    flex-direction: column;
+    padding: 2.0mm;
+}
+.items {
+    display: flex;
+    justify-content: end;
+}
+.gmail-n-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.gmail {
+    display: flex;
+    margin-right: 2mm;
+    color: black;
+}
+.images {
+    display: flex;
+    margin-right: 4mm;
+    color: black;
+}
+
+.account {
+    margin-left: 3mm;
+    margin-right: 1mm;
+    border-radius: 50%;
+}
+.apps {
+    margin-bottom: 1mm;
 }
