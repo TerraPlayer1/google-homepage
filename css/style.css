@@ -1,6 +1,9 @@
 a {
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 .main {
     display: flex;
     flex-direction: column;
@@ -28,16 +31,17 @@ a {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-size: 13px;
 }
 .gmail {
     display: flex;
     margin-right: 3mm;
-    color: black;
+    color: rgba(0,0,0,0.87);
 }
 .images {
     display: flex;
     margin-right: 7mm;
-    color: black;
+    color: rgba(0,0,0,0.87);
 }
 
 .account {
@@ -57,7 +61,7 @@ a {
     padding: 10px 10px;
     border: 1px solid lightgray;
     border-radius: 30px;
-    margin: 30px auto 0;
+    margin: 25px auto 0;
 }
 .search-icon {
     margin-bottom: -5px;
@@ -68,9 +72,70 @@ a {
     font-size: 16px;
     width: 85%;
 }
+.search-bar:focus{
+    outline: none;
+}
+.search-area:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
 .keyboard-icon {
     margin-bottom: -5px;
     margin-right: 7px;
     float: right;
     opacity: 50%;
+}
+.search-buttons {
+    text-align: center;
+    padding-top: 25px;
+}
+.button {
+    margin: 6px;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    opacity: 80%;
+    border-radius: 3px;
+}
+.button:hover {
+    border: 1px solid #bbb;
+    box-shadow: 0 0.5px 0px 0 rgb(242, 242, 242);
+    cursor: pointer
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #f2f2f2;
+    width: 100%;
+    padding: 13px 0px 13px;
+    border-top: 1px solid lightgray;
+    height: 20px;
+}
+#country {
+    padding-left: 30px;
+    font-size: 15px;
+    opacity: 60%;
+    position: fixed;
+    bottom: 46px;
+    text-align: left;
+}
+.left {
+    padding-left: 5px;
+    font-size: 14px;
+    opacity: 60%;
+    float:left;
+    text-align: justify;
+}
+.left a {
+    padding-left: 30px
+}
+.right a {
+    padding-right: 30px
+}
+.right {
+    font-size: 14px;
+    opacity: 60%;
+    float:right;
+    text-align:justify;
 }
