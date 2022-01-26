@@ -1,37 +1,54 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
 
-You can use the [editor on GitHub](https://github.com/TerraPlayer1/google-homepage/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<html>
+	<head>
+		<title>My Page!</title>	
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="items">
+                    <div class="gmail-n-images">
+                        <a class="gmail" href="https://mail.google.com/mail/&ogbl" target= "_top">Gmail</a>
+                        <a class="images" href="https://www.google.ro/imghp?hl=ro&ogbl" target="_top">Images</a>
+                    </div>
+                    <div class="account-n-apps">
+                        <img class="apps" src="images/apps_black_24dp.svg">  
+                        <img class="account" src="https://lh3.googleusercontent.com/ogw/ADea4I7B-elGJlX7ALub_GH3fELwmNR8ViAfh8bAm6si=s32-c-mo">
+                    </div>
+                </div>
+            </div>
+            <div class="logo-area">
+                <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"/> <br/>
+            </div>
+            <div class="search-area">
+                    <img class="search-icon" src="images/outline_search_black_24dp.png" alt="search symbol">
+                    <input class="search-bar" type="text">
+                    <img class="keyboard-icon" src="images/outline_keyboard_black_24dp.png" alt="virtual keyboard">
+            </div>
+            <div class="search-buttons">
+                <button class="button" type="button">Google Search</button>
+                <button class="button" type="button">I'm Feeling Lucky</button>
+            </div>
+            <div id="country" class="footer">Romania</div>
+            <div class="footer">
+                <div class="left">
+                    <a>About</a>
+                    <a>Advertising</a>
+                    <a>Business</a>
+                    <a>How Search works</a>
+                </div>
+                <div class="right">
+                    <a>Privacy</a>
+                    <a>Terms</a>
+                    <a>Settings</a>
+                </div>
+            </div>
+        </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    </body>
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TerraPlayer1/google-homepage/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
